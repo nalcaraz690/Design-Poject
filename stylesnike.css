@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 175px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    z-index: 2;
+    border: 2px solid black;
+}
+.headertext {
+    position: relative;
+    top: 60px;
+    right: 850px;
+    font-family: Futura Bold Condensed Oblique;
+    font-size: 60px;
+}
+p {
+    font-size: 30px;
+    font-family: Futura Bold Condensed Oblique;
+    position: relative;
+    top: 10px;
+}
+.headerpic {
+    position: relative;
+    left: 1000px;
+    bottom: 90px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 130px;
+}
+table {
+    position: relative;
+    top: 230px;
+    left: 390px;
+}
+td {
+    padding: 70px;
+    text-align: center;
+}
+img {
+    border: 2px solid lightgray;
+}
+h4 {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    margin: 30px;
+}
+h1 {
+    font-family: Futura Bold Condensed Oblique;
+    font-size: 25px;
+}
+

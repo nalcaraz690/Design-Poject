@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>FORMS</title>
+        <link rel="stylesheet" href="stylesform.css">
+    </head>
+    <body> 
+        <header class="header">
+            <section class="headertext" >FORM</section>
+            <p class="head">What's your feedback?</p>
+            <a href="https://shops.cadillacfairview.com/property/cf-fairview-pointe-claire">
+                <img src="fairview.jpg" class="headerpic">  
+            </a>
+        </header>
+        <p class="text"><b> Please fill out this form so I know how I may ameliorate this website and figure out what to do better for next time.</b></p>
+        <br><br>
+        <form>
+            <label for="name">Enter your <u>name:</u></label>
+            <input type="text" name="username" id="username" placeholder="name" required>
+            <br>
+            <label for="email">Enter your <u>email:</u></label>
+            <input type="email" name="email" id="email" placeholder="email" required>
+            <br><br>
+            <p>Select your age:</p>
+            <input type="radio" name="age" id="age 13-16">
+            <label for="option 1">age 13-16</label>
+            <br>
+            <input type="radio" name="age" id="age 17-21">
+            <label for="option 1">age 17-21</label>
+            <br>
+            <input type="radio" name="age" id="age 21 and up">
+            <label for="option 1">age 21 and up</label>
+            <br>
+            <br>
+            <!--What did you like about this website-->
+            <label for="like">What did you like about this website:</label>
+            <br>
+            <textarea name="like" id="like" cols="30" rows="10"></textarea>
+            <br><br>
+            <!--What did you dislike about this website-->
+            <label for="dislike">What did you dislike about this website:</label>
+            <br>
+            <textarea name="dislike" id="dislike" cols="30" rows="10"></textarea>
+            <br><br>
+            <!--What could be done to improve this website-->
+            <label for="improve">What could be done to improve this website:</label>
+            <br>
+            <textarea name="improve" id="improve" cols="30" rows="10"></textarea>
+            <br><br>
+            <!--Do you agree with the lists I created (yes or no)-->
+            <p>Do you agree with the lists I created?</p>
+            <input type="radio" name="yes" id="yes">
+            <label for="option 1">Yes</label>
+            <br>
+            <input type="radio" name="no" id="no">
+            <label for="option 1">No</label>
+            <br><br>
+            <!--Did you like the colours and positoning of the website (yes or no)-->
+            <p>Did you like the colours and positoning of the website?</p>
+            <input type="radio" name="yes" id="yes">
+            <label for="option 1">Yes</label>
+            <br>
+            <input type="radio" name="no" id="no">
+            <label for="option 1">No</label>
+            <br><br>
+            <input type="submit" name="submit" id="submit">
+            <input type="reset" name="reset" id="reset">
+        </form>
+    </body>
+</html>
